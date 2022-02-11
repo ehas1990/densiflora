@@ -1,0 +1,119 @@
+.footer__logo img{
+    width: 125px;
+    height: 55px;
+}
+.footer__payment img
+{
+width: 75px;
+}
+.header__logo img{
+    width: 30%;
+}
+#banner__slider
+{
+ padding: 0px 0 3px 104px;
+}
+#discount__text
+{
+    background-color: #ffff;
+}
+#banner__slider #owl-item img {
+    display: block;
+    width: 50%;
+}
+.main_box {
+  
+    
+    position: relative;
+    transform: center -5em;
+  
+    /* We will the animation defined below to
+       this element */
+    animation: move infinite 0.5s alternate ease-in-out;
+  }
+  
+  
+  .main_box::before {
+    content: "";
+  
+    position: absolute;
+  
+    top: -20%;
+    transform: translateX(-50%);
+  
+  }
+  
+  .main_box::after {
+    content: "";
+    position: absolute;
+    width: 0.5em;
+    height: 5em;
+    border-radius: 0.75em;
+
+    transform: translateX(-50%);
+  
+    position: fixed;
+  
+    /* The z-index of -2 is set to keep the object of 
+      ::after pseudo-class to beneath the other objects
+    */
+    z-index: -2;
+  }
+  
+  /* @keyframes is used to add the swinging
+     animation to our code! */
+  
+  @keyframes move {
+    from {
+      transform: rotate(-6deg);
+    }
+    to {
+      transform: rotate(6deg);
+    }
+}
+
+@media only screen 
+  and (min-device-width: 210px) 
+  and (max-device-width:320px)
+{
+ .footer__copyright__text p
+ {
+    font-size: 7px;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+.footer__social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #e1e1e1;
+    font-size: 15px;
+    color: #111111;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+ 
+ }
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 620px)
+{
+  
+}
+@media only screen 
+  and (min-device-width:620px) 
+  and (max-device-width:720px)
+{
+  
+}
+@media only screen 
+ and (max-device-width:1024px)
+  {
+   
+}
